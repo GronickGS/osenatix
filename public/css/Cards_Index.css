@@ -1,0 +1,135 @@
+.software1{
+    margin: 50px;
+}
+.boton_card{
+    background-color: rgb(46, 79, 185);
+    padding: 10px;
+    color: aliceblue;
+    border-radius: 7%;
+    text-decoration: none;
+}
+.colorWhite{
+    color: black;
+}
+
+.contenedor_cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 500px;
+    perspective: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgb(236, 236, 236);
+}
+
+.cara {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    backface-visibility: hidden; /* Evita el parpadeo al rotar */
+    transition: transform 0.5s;
+    border-radius: 20px; /* Agrega bordes redondeados */
+    overflow: hidden;
+}
+
+.adelante1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(0deg);
+    background-image: url('../images/cubic.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+.adelante2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(0deg);
+    background-image: url('../images/vb.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+.adelante3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(0deg);
+    background-image: url('../images/mint.png');
+    background-size: cover; 
+    background-position: center;
+}
+
+
+.atras1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.atras2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.atras3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: rotateY(180deg);
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+
+
+.card:hover .adelante1 {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .atras1 {
+    transform: rotateY(0deg);
+}
+
+.card:hover .adelante2 {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .atras2 {
+    transform: rotateY(0deg);
+}
+
+
+.card:hover .adelante3 {
+    transform: rotateY(-180deg);
+}
+
+.card:hover .atras3 {
+    transform: rotateY(0deg);
+}
+
+h2, h3 {
+    margin: 0;
+}

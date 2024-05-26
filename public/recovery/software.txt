@@ -1,0 +1,40 @@
+<section class="software contenedor" id="software">
+            <h2 class="subtitulo">Software que se usó</h2>
+            <div class="software__caja">
+                <div class="software__elemento">
+                    <p class="software__nombre">Configuracion</p>
+                    <h3 class="software__software">CUBIC</h3>
+
+                    <div class="software__items">
+                        <p class="software__features">Cubic proporciona una interfaz gráfica de usuario para modificar y
+                            personalizar una instalación de Ubuntu y luego generar una imagen ISO lista para ser grabada
+                            en un medio de almacenamiento como un DVD o una unidad USB.</p>
+                    </div>
+                    <a href="https://launchpad.net/~cubic-wizard/+archive/ubuntu/release" target="_blank"
+                        class="software__cta">Conoce más</a>
+                </div>
+
+                <div class="software__elemento software__elemento--best">
+                    <p class="software__nombre">Programa</p>
+                    <h3 class="software__software">Virtual Box</h3>
+
+                    <div class="software__items">
+                        <p class="software__features">Permite a los usuarios crear y ejecutar máquinas virtuales en sus
+                            computadoras personales, lo que les permite ejecutar múltiples sistemas operativos
+                            simultáneamente en un solo hardware físico.</p>
+                    </div>
+                    <a href="https://www.virtualbox.org/" class="software__cta" target="_blank">Conoce más</a>
+                </div>
+                <div class="software__elemento">
+                    <p class="software__nombre">Sistema operativo</p>
+                    <h3 class="software__software">ISO MINT</h3>
+
+                    <div class="software__items">
+                        <p class="software__features">Linux Mint es una distribución de Linux popular y ampliamente
+                            utilizada que ofrece una experiencia de usuario amigable, un entorno de escritorio intuitivo
+                            y opciones de personalización.</p>
+                    </div>
+                    <a href="https://www.linuxmint.com/" class="software__cta">Conoce más</a>
+                </div>
+            </div>
+        </section>
